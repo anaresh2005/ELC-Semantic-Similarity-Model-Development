@@ -1,0 +1,22 @@
+# Python / Poetry
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints
+
+
+# macOS
+.DS_Store
+
+# Data and artifacts
+~$*.xlsx
+*.xlsx
+data/*
+!data/README.md
+*.faiss
+*.index
+*.log

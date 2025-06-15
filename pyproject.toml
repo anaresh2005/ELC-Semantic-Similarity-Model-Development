@@ -1,0 +1,22 @@
+[project]
+name = "Semantic_Model_Development_Project"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Aneesh Naresh",email = "an524@cornell.edu"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jupyter (>=1.1.1,<2.0.0)",
+    "notebook (>=7.4.3,<8.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "jupyterlab (>=4.4.3,<5.0.0)",
+    "faiss-cpu (>=1.11.0,<2.0.0)",
+    "sentence-transformers (>=4.1.0,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
