@@ -24,3 +24,8 @@ def process_data(df: pd.DataFrame) -> pd.DataFrame:
     df = drop_manual(df)
     df = drop_na(df)
     return df
+
+
+def load_and_process(path: str) -> pd.DataFrame:
+    df = pd.read_csv(path)
+    return process_data(df)
